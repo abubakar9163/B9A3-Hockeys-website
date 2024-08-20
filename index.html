@@ -46,7 +46,7 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 -ml-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
@@ -121,7 +121,7 @@
     </header>
     <main class="container mx-auto px-8 lg:px-14">
         <!-- professional hockeys -->
-        <section class="mt-16">
+        <section class="lg:-mt-8 mt-16">
             <h3 class=" text-xl lg:text-3xl font-extrabold text-center mb-4">Professional Hockeys Club</h3>
             <p class="text-[#13131899] text-center mx-auto w-2/4">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -499,9 +499,9 @@
                     adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </h3>
 
-            <div class="grid grid-cols-5 gap-4 mt-12">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 mt-12">
 
-                <div class="col-span-2 border p-4 grid grid-cols-1 gap-4">
+                <div class="col-span-1 lg:col-span-2 border p-4 grid grid-cols-1 gap-4">
 
                     <div class="bg-[#BCED6D1A] p-8">
                         <img src="Images/Group 1171275317.png" alt="" class="mb-4">
@@ -531,9 +531,9 @@
 
                 </div>
 
-                <div class="col-span-3 ">
+                <div class=" col-span-1 lg:col-span-3 ">
 
-                    <div class="grid grid-cols-2 p-4 gap-4">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">
                         <div>
                             <label for=""> Your Name</label>
                             <label
@@ -561,19 +561,19 @@
 
                         </div>
 
-                        <div class="grid-cols-2">
+                        <div class="grid-cols-1 Lg:grid-cols-2">
                             <label for="">Message</label>
-                            <textarea class="textarea w-[660px] h-[250px] mt-2" placeholder="Write your message"
+                            <textarea class="textarea w-[330px] lg:w-[660px] h-[250px] mt-2" placeholder="Write your message"
                                 disabled></textarea>
 
 
-                            <button class="btn btn-secondary  mt-6 w-[660px] bg-[#FF4240] hover:bg-[#FF4240]">Send Message</button>
+                            <button class="btn btn-secondary  mt-6 w-[330px] lg:w-[660px] bg-[#FF4240] hover:bg-[#FF4240]">Send Message</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-span-5">
-                    <div class="bg-[#13131808] py-8 px-[500px] text-center mx-auto">
+                <div class="col-span-1 lg:col-span-5">
+                    <div class="bg-[#13131808] py-8 px-4 lg:px-[500px] text-center mx-auto">
                         <h4 class="font-semibold">Social Media</h4>
                         <div class="space-x-3">
                             <i class="fa-brands fa-twitter"></i>
@@ -596,8 +596,8 @@
     <!-- footer -->
 
     <footer class="  bg-black mt-24">
-        <footer class="footer  container mx-auto px-8 text-base-content p-10 text-white space-x-32">
-            <aside>
+        <footer class="footer  container mx-auto px-4 lg:px-8 text-base-content p-10 text-white space-x-12 lg:space-x-32">
+            <aside class="mx-auto text-center lg:text-left">
                 <div class="space-y-3">
                     <h3 class="text-2xl font-extrabold">Get In Touch</h3>
               <p class="w-[300px]">
@@ -610,34 +610,36 @@
             
                 </div>
             </aside>
-            <nav>
-              <h6 class="font-bold text-white text-xl">Company</h6>
-
-              <a class="link link-hover text-[#FFFFFFCC]">About us</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Leadership</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Careers</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Mews & Artice</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Legal Notice</a>
-             
-            </nav>
-            <nav>
-              <h6 class="font-bold text-white text-xl">Support</h6>
-
-              <a class="link link-hover text-[#FFFFFFCC]">Help Center</a>
-              <a class="link link-hover text-[#FFFFFFCC]">FAQ</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Ticket Support</a>
-              <a class="link link-hover text-[#FFFFFFCC]">Contact Us</a>        
-            </nav>
-
-            <nav>
-                <h6 class="font-bold text-white text-xl">Services</h6>
+           <div class="grid  grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-52">
+            <nav class="flex flex-col gap-3">
+                <h6 class="font-bold text-white text-xl">Company</h6>
   
-                <a class="link link-hover text-[#FFFFFFCC]">Academy</a>
-                <a class="link link-hover text-[#FFFFFFCC]">Group Lesson</a>
-                <a class="link link-hover text-[#FFFFFFCC]">Private Lesson</a>
-                <a class="link link-hover text-[#FFFFFFCC]">Hockeys for kids</a>        
-                <a class="link link-hover text-[#FFFFFFCC]">Hockeys for Adult</a>        
+                <a class="link link-hover text-[#FFFFFFCC]">About us</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Leadership</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Careers</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Mews & Artice</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Legal Notice</a>
+               
               </nav>
+              <nav class="flex flex-col gap-3">
+                <h6 class="font-bold text-white text-xl">Support</h6>
+  
+                <a class="link link-hover text-[#FFFFFFCC]">Help Center</a>
+                <a class="link link-hover text-[#FFFFFFCC]">FAQ</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Ticket Support</a>
+                <a class="link link-hover text-[#FFFFFFCC]">Contact Us</a>        
+              </nav>
+  
+              <nav class="flex flex-col gap-3 translate-x-24 lg:-translate-x-4">
+                  <h6 class="font-bold text-white text-xl">Services</h6>
+    
+                  <a class="link link-hover text-[#FFFFFFCC]">Academy</a>
+                  <a class="link link-hover text-[#FFFFFFCC]">Group Lesson</a>
+                  <a class="link link-hover text-[#FFFFFFCC]">Private Lesson</a>
+                  <a class="link link-hover text-[#FFFFFFCC]">Hockeys for kids</a>        
+                  <a class="link link-hover text-[#FFFFFFCC]">Hockeys for Adult</a>        
+                </nav>
+           </div>
           </footer>
 
     </footer>
